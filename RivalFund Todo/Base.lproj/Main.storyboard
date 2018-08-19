@@ -32,7 +32,14 @@
                             <outlet property="delegate" destination="jnv-Gv-N4T" id="aL4-EP-bHo"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="RivalFund List" id="Hwl-yK-eeI"/>
+                    <navigationItem key="navigationItem" title="RivalFund List" id="Hwl-yK-eeI">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="h3J-kf-kGG">
+                            <color key="tintColor" red="0.99215686270000003" green="0.43529411759999997" blue="0.28627450980000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="addButtonPressed:" destination="jnv-Gv-N4T" id="5DU-Zh-P24"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0tu-96-dJc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
