@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		17EE1930212234CC00B133C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EE192F212234CC00B133C4 /* AppDelegate.swift */; };
-		17EE1932212234CC00B133C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EE1931212234CC00B133C4 /* ViewController.swift */; };
+		17EE1932212234CC00B133C4 /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EE1931212234CC00B133C4 /* TodoListViewController.swift */; };
 		17EE1935212234CC00B133C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17EE1933212234CC00B133C4 /* Main.storyboard */; };
 		17EE1937212234EF00B133C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17EE1936212234EF00B133C4 /* Assets.xcassets */; };
 		17EE193A212234EF00B133C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17EE1938212234EF00B133C4 /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		17EE192C212234CC00B133C4 /* RivalFund Todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RivalFund Todo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		17EE192F212234CC00B133C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		17EE1931212234CC00B133C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		17EE1931212234CC00B133C4 /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
 		17EE1934212234CC00B133C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		17EE1936212234EF00B133C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17EE1939212234EF00B133C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				17EE192F212234CC00B133C4 /* AppDelegate.swift */,
-				17EE1931212234CC00B133C4 /* ViewController.swift */,
+				17EE1931212234CC00B133C4 /* TodoListViewController.swift */,
 				17EE1933212234CC00B133C4 /* Main.storyboard */,
 				17EE1936212234EF00B133C4 /* Assets.xcassets */,
 				17EE1938212234EF00B133C4 /* LaunchScreen.storyboard */,
@@ -135,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17EE1932212234CC00B133C4 /* ViewController.swift in Sources */,
+				17EE1932212234CC00B133C4 /* TodoListViewController.swift in Sources */,
 				17EE1930212234CC00B133C4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,13 +281,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 39Q7RAHF58;
+				DEVELOPMENT_TEAM = 2A264HGAMA;
 				INFOPLIST_FILE = "RivalFund Todo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.XavierSantos.RivalFund-Todo";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.XavierSantos.RivalFund-List";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -299,13 +299,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 39Q7RAHF58;
+				DEVELOPMENT_TEAM = 2A264HGAMA;
 				INFOPLIST_FILE = "RivalFund Todo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.XavierSantos.RivalFund-Todo";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.XavierSantos.RivalFund-List";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
